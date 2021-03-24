@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+section {
+    width: 50%;
+}
+
+#editor {
+    width: 500px;
+    height: 400px;
+}

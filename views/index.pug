@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  head
+    title title
+    link(rel="stylesheet", href="index.css")
+  body
+    main
+      section.left
+        .control
+          button.button check
+        #editor write your code here
+      section.right
+        section
+          iframe(src="render.html", height="800", width="800", title="Iframe Example")
+    
+    script(src="libs/ace-master/build/src/ace.js", type="text/javascript", charset="utf-8")
+    script(src="libs/ace-master/build/src/theme-twilight.js", type="text/javascript", charset="utf-8")
+    script(src="index.js")
