@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-  fs.writeFileSync(req.body.data);
+  fs.writeFileSync("index.html", req.body.data);
 });
 
 server.listen(PORT, () => {
